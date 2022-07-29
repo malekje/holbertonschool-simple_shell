@@ -30,14 +30,10 @@ shell display each time a command that we executed
 |- ls        |to list files and directory            |
 | :--------- | ------------------------------------: |
 |- cd        | change directory                      |
-| :--------- | ------------------------------------: |
 |- pwd       | print working directory               |
 |- cat       | show you what we wrote in our file    |
-| :--------- | ------------------------------------: |
 |- env       | print the environment variable        |
-| :--------- | ------------------------------------: |
 |- printenv  | print the shell variable              |
-| :--------- | ------------------------------------: |
 |- exit      | shell will end and it gonna exit      |
 | :---------:|:------------------------------------: |
 |                                                    |

@@ -35,7 +35,6 @@ shell display each time a command that we executed
 |- env       | print the environment variable        |
 |- printenv  | print the shell variable              |
 |- exit      | shell will end and it gonna exit      |
-| :---------:|:------------------------------------: |
 |                                                    |
 
 ## 💡 Authors:

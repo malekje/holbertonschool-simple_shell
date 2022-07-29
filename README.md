@@ -27,7 +27,7 @@ shell display each time a command that we executed
  |
 |the comand that most user excute in shell           |
 | :------------------------------------------------: |
-|- ls       | to listfiles and directory             |
+|- ls        | to listfiles and directory            |
 |- cd        | change directory                      |
 |- pwd       | print working directory               |
 |- cat       | show you what we wrote in our file    |

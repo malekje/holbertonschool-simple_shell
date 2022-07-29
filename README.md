@@ -32,7 +32,6 @@ shell display each time a command that we executed
 |- cd        | change directory                      |
 | :--------- | ------------------------------------: |
 |- pwd       | print working directory               |
-| :--------- | ------------------------------------: |
 |- cat       | show you what we wrote in our file    |
 | :--------- | ------------------------------------: |
 |- env       | print the environment variable        |

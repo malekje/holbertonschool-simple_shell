@@ -25,10 +25,10 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 shell display each time a command that we executed
 
- the comand that most user excute in shell           
- 
+ the comand that most user excute in shell:          
+
 |- ls        |to list files and directory            |
-| :--------- | ------------------------------------: |
+|            |
 |- cd        | change directory                      |
 | :--------- | ------------------------------------: |
 |- pwd       | print working directory               |

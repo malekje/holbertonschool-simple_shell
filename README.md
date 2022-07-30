@@ -3,9 +3,7 @@
 <h1 align="center">
     💡 _simple_shell:
 
-in our holbertoon school group project we work on making our own shell,
-we make from 0 to 100 by using vim and vs code.
-
+Making our own shell from scratch. 
 # 💡 Description:
 
 _simple_shell is a rectreation of shell that takes commands from the keyboard 

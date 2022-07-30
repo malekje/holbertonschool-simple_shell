@@ -36,6 +36,6 @@ shell display each time a command that we executed
 
 ## 💡 Authors:
 
-* aya aribi <https://github.com/ayaaribi123>
+* Aya Aribi <https://github.com/ayaaribi123>
 * Hedi Ben Hamida <https://github.com/xcoder19>
 * Malek Mayeh <https://github.com/malekje>

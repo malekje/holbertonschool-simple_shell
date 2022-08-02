@@ -27,7 +27,6 @@ working directory .PP &.TP .BR cat: show you what we wrote in our file
 printenv: print the shell variable PP &.TP .BR exit: shell will end and
 it gonna exit .PP
 .PP
-\&.SH AUTHORS
-aya aribi<https://github.com/ayaaribi123> Hedi Ben
+\&.SH AUTHORS aya aribi<https://github.com/ayaaribi123> Hedi Ben
 Hamida<https://github.com/xcoder19> Malek
 Mayeh<https://github.com/malekje>

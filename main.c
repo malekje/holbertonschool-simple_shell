@@ -10,6 +10,8 @@ int main(void)
 		printf("$ ");
 		ln = getln();
 		command = formatln(ln);
+		if (*command == NULL)
+			continue;
 		search_exe(command);
 		launch_process(command);
 		free(ln);

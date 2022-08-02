@@ -2,13 +2,8 @@
 
 <h1 align="center">
     💡 _simple_shell:
-
-<<<<<<< HEAD
-Making our own shell from scratch.
-
-=======
 Making our own shell from scratch. 
->>>>>>> 866b7ff7efd625729dfdf6522bb350125542dcdd
+
 # 💡 Description:
 
 _simple_shell is a rectreation of shell that takes commands from the keyboard 

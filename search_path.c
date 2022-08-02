@@ -5,16 +5,17 @@ char *_getenv(char *name)
 	char *val;
 
 	unsigned long lenValue, lenName = strlen(name);
-	lenValue = strlen(environ[i]) - lenName;
-	val = malloc(lenValue * sizeof(char));
-	if (val == NULL)
-	{
-		perror("failed to allocate value");
-		return NULL;
-	}
-	while (environ[i] != NULL)
-	{
 
+	while (environ[i] != NULL)
+
+	{
+		lenValue = strlen(environ[i]) - lenName;
+		val = malloc(lenValue * sizeof(char));
+		if (val == NULL)
+		{
+			perror("failed to allocate value");
+			return NULL;
+		}
 		if (strncmp(name, environ[i], lenName) == 0 && strcpy(val, environ[i]))
 			return val;
 
@@ -27,7 +28,7 @@ char *_getenv(char *name)
 char *compose(char *token, char *val)
 {
 	char *exe;
-	int len = strlen(token) + strlen(val) + 1;
+	unsigned long len = strlen(token) + strlen(val) + 1;
 
 	exe = malloc(sizeof(char) * len);
 
@@ -36,24 +37,27 @@ char *compose(char *token, char *val)
 
 	strcat(exe, val);
 	strcat(exe, "/");
-
-	return strcat(exe, token);
+	exe = strcat(exe, token);
+	return exe;
 }
 
 void search_exe(char **exe)
 {
 	struct stat statbuf;
-	char *exe_path, *path = _getenv("PATH"),
-					*value = strtok(path, ":");
+	char *exe_path, *value, *path;
 
+	path = _getenv("PATH");
+	value = strtok(path, ":");
 	while (value != NULL)
 	{
 		exe_path = compose(*exe, value);
 
 		if (stat(exe_path, &statbuf) == 0)
 		{
+
 			*exe = strdup(exe_path);
-			break;
+
+			return;
 		}
 
 		value = strtok(NULL, ":");

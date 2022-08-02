@@ -2,6 +2,7 @@
 
 <h1 align="center">
     💡 _simple_shell:
+
 Making our own shell from scratch. 
 
 # 💡 Description:

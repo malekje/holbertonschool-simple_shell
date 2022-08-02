@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <sys/wait.h>
 extern char **environ;
 char *getln(void);
 char **formatln(char *ln);

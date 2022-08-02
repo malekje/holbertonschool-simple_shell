@@ -1,5 +1,4 @@
 #include "main.h"
-
 #define TOKEN_DELIM " \t\r\n\a"
 char **formatln(char *ln)
 {
@@ -45,16 +44,4 @@ char *getln(void)
 	getline(&ln, &bufsize, stdin);
 
 	return (ln);
-}
-
-void launch_process(char **command)
-{
-	pid_t pid;
-
-	pid = fork();
-	if (pid == 0 && execve(command[0], command, environ) == -1)
-		perror("./shell");
-
-	else
-		wait(&pid);
 }

@@ -1,5 +1,10 @@
 #include "main.h"
 #define TOKEN_DELIM " \t\r\n\a"
+/**
+ * formatln - format line
+ * @ln: line
+ * Return: token array
+ */
 char **formatln(char *ln)
 {
 	int bufsize = 64, i = 0;
@@ -9,7 +14,7 @@ char **formatln(char *ln)
 	if (tokens == NULL)
 	{
 		perror("failed to allocate tokens\n");
-		return NULL;
+		return (NULL);
 	}
 
 	token = strtok(ln, TOKEN_DELIM);
@@ -25,7 +30,7 @@ char **formatln(char *ln)
 			if (tokens == NULL)
 			{
 				perror("failed to reallocate tokens\n");
-				return NULL;
+				return (NULL);
 			}
 		}
 
@@ -34,7 +39,9 @@ char **formatln(char *ln)
 	tokens[i] = NULL;
 	return (tokens);
 }
-
+/**
+ * getln - getline
+ */
 char *getln(void)
 {
 

@@ -1,10 +1,12 @@
 #include "main.h"
-
+/**
+ * main - execution
+ * Return: 0
+ */
 int main(void)
 {
-
 	char *ln, **command;
-	int st;
+	int st = 1;
 	do
 	{
 		if (isatty(STDIN_FILENO))
@@ -18,7 +20,7 @@ int main(void)
 			launch_process(command);
 			free(ln);
 			free(command);
-			return 0;
+			return (0);
 		}
 
 		ln = getln();
@@ -36,9 +38,14 @@ int main(void)
 
 	} while (st);
 
-	return 0;
+	return (0);
 }
 
+/**
+ * launch_process - execute command
+ * @command: command
+ * Return: 1
+ */
 int launch_process(char **command)
 {
 	pid_t pid;

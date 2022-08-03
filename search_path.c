@@ -1,4 +1,10 @@
 #include "main.h"
+#include "main.h"
+/**
+ * _getenv - getenv
+ * @name: name
+ * Return: env
+ */
 char *_getenv(char *name)
 {
 	int i = 0;
@@ -14,17 +20,22 @@ char *_getenv(char *name)
 		if (val == NULL)
 		{
 			perror("failed to allocate value");
-			return NULL;
+			return (NULL);
 		}
 		if (strncmp(name, environ[i], lenName) == 0 && strcpy(val, environ[i]))
-			return val;
+			return (val);
 
 		i++;
 	}
 
-	return NULL;
+	return (NULL);
 }
-
+/**
+ * compose - compose token and value
+ * @token: token
+ * @val: value
+ * Return: composed string
+ */
 char *compose(char *token, char *val)
 {
 	char *exe;
@@ -33,15 +44,18 @@ char *compose(char *token, char *val)
 	exe = malloc(sizeof(char) * len);
 
 	if (exe == NULL)
-		return NULL;
+		return (NULL);
 
 	strcat(exe, val);
 	strcat(exe, "/");
 	exe = strcat(exe, token);
 
-	return exe;
+	return (exe);
 }
-
+/**
+ * search_exe - search executable
+ * @exe: command
+ */
 void search_exe(char **exe)
 {
 	struct stat statbuf;

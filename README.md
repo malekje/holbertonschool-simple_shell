@@ -4,8 +4,7 @@
     💡 _simple_shell:
 <p align="center">
 	<img src = 1_lqEaA1-6gGQhdLS3k8X0xw (3)>
-    </p>![1_lqEaA1-6gGQhdLS3k8X0xw](https://user-images.githubusercontent.com/31927278/182706813-0ac18b99-17fb-4260-a61c-1c3960ec14da.gif)
-
+    </p>
 
 Making our own shell from scratch. 
 

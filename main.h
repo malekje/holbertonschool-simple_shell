@@ -10,8 +10,8 @@
 extern char **environ;
 char *getln(void);
 char **formatln(char *ln);
-void launch_process(char **command);
 char *compose(char *token, char *val);
+int launch_process(char **command);
 void search_exe(char **command);
 char *_getenv(char *name);
 #endif

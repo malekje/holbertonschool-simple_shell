@@ -4,15 +4,25 @@ int main(void)
 {
 
 	char *ln, **command;
-	int st = 0;
-
+	int st;
 	do
 	{
-		printf("$ ");
-		ln = getln();
-		int st;
-		command = formatln(ln);
+		if (isatty(STDIN_FILENO))
+			write(STDERR_FILENO, "$ ", 2);
 
+		else
+		{
+			ln = getln();
+			command = formatln(ln);
+			search_exe(command);
+			launch_process(command);
+			free(ln);
+			free(command);
+			return 0;
+		}
+
+		ln = getln();
+		command = formatln(ln);
 		if (*command == NULL)
 		{
 			free(ln);
@@ -28,6 +38,7 @@ int main(void)
 
 	return 0;
 }
+
 int launch_process(char **command)
 {
 	pid_t pid;

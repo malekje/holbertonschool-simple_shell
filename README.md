@@ -3,7 +3,12 @@
 <h1 align="center">
     💡 _simple_shell:
 
+<p align="center">
+	<img ="png.gif" src="png.gif"/>
+    </p>
+
 Making our own shell from scratch. 
+
 # 💡 Description:
 
 _simple_shell is a rectreation of shell that takes commands from the keyboard 
@@ -36,6 +41,6 @@ shell display each time a command that we executed
 
 ## 💡 Authors:
 
-* Aya Aribi <https://github.com/ayaaribi123>
+* aya aribi <https://github.com/ayaaribi123>
 * Hedi Ben Hamida <https://github.com/xcoder19>
 * Malek Mayeh <https://github.com/malekje>

@@ -38,6 +38,7 @@ char *compose(char *token, char *val)
 	strcat(exe, val);
 	strcat(exe, "/");
 	exe = strcat(exe, token);
+
 	return exe;
 }
 
@@ -46,7 +47,7 @@ void search_exe(char **exe)
 	struct stat statbuf;
 	char *exe_path, *value, *path;
 
-	path = _getenv("PATH");
+	path = strdup(getenv("PATH"));
 	value = strtok(path, ":");
 	while (value != NULL)
 	{
@@ -64,6 +65,5 @@ void search_exe(char **exe)
 		value = strtok(NULL, ":");
 	}
 
-	free(exe_path);
 	free(path);
 }

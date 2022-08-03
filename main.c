@@ -8,7 +8,7 @@ int main(void)
 	do
 	{
 		if (isatty(STDIN_FILENO))
-			write(STDERR_FILENO, "$ ", 2);
+			printf("$ ");
 
 		else
 		{

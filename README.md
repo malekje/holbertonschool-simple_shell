@@ -2,9 +2,10 @@
 
 <h1 align="center">
     💡 _simple_shell:
-
-
-    ![1_lqEaA1-6gGQhdLS3k8X0xw](https://user-images.githubusercontent.com/31927278/182707426-f8f7f5ba-a9d0-4620-9242-fad8d5ed5b5f.gif)
+<p align="center">
+    </p>
+	
+![1_lqEaA1-6gGQhdLS3k8X0xw](https://user-images.githubusercontent.com/31927278/182706961-e087c64e-9d7b-40db-a931-67009dc34089.gif)
 
 
 Making our own shell from scratch. 

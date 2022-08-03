@@ -3,7 +3,7 @@
 <h1 align="center">
     💡 _simple_shell:
 <p align="center">
-	<img width = "150" alt =png.n.gif src = https://images-ext-1.discordapp.net/external/Ksw25XAF4T2SdcZltotPgjgVEArp3A7MjI0MxVFWf9w/https/miro.medium.com/max/1575/1%2AlqEaA1-6gGQhdLS3k8X0xw.gif/>
+	<img width = "150" src = https://images-ext-1.discordapp.net/external/Ksw25XAF4T2SdcZltotPgjgVEArp3A7MjI0MxVFWf9w/https/miro.medium.com/max/1575/1%2AlqEaA1-6gGQhdLS3k8X0xw.gif/>
     </p>
 
 Making our own shell from scratch. 

@@ -7,7 +7,9 @@ int main(void)
 {
 	char *ln, **command;
 	int st = 1;
+
 	do
+
 	{
 		if (isatty(STDIN_FILENO))
 			printf("$ ");

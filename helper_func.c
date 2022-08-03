@@ -41,6 +41,7 @@ char **formatln(char *ln)
 }
 /**
  * getln - getline
+ * Return: ln
  */
 char *getln(void)
 {

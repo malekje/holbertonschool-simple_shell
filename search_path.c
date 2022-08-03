@@ -56,10 +56,11 @@ void search_exe(char **exe)
 		{
 
 			*exe = strdup(exe_path);
-
+			free(path);
 			return;
 		}
 
 		value = strtok(NULL, ":");
 	}
+	free(path);
 }

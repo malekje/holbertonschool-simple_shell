@@ -2,6 +2,10 @@
 
 <h1 align="center">
     💡 _simple_shell:
+<p align="center">
+    </p>
+	
+![1_lqEaA1-6gGQhdLS3k8X0xw](https://user-images.githubusercontent.com/31927278/182706961-e087c64e-9d7b-40db-a931-67009dc34089.gif)
 
 Making our own shell from scratch. 
 
@@ -37,6 +41,6 @@ shell display each time a command that we executed
 
 ## 💡 Authors:
 
-* aya aribi<https://github.com/ayaaribi123>
-* Hedi Ben Hamida<https://github.com/xcoder19>
-* Malek Mayeh<https://github.com/malekje>
+* aya aribi <https://github.com/ayaaribi123>
+* Hedi Ben Hamida <https://github.com/xcoder19>
+* Malek Mayeh <https://github.com/malekje>

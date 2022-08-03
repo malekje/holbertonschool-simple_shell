@@ -3,6 +3,10 @@
 <h1 align="center">
     💡 _simple_shell:
 
+<p align="center">
+	<img ="png.gif" src="png.gif"/>
+    </p>
+
 Making our own shell from scratch. 
 
 # 💡 Description:

@@ -3,9 +3,7 @@
 <h1 align="center">
     💡 _simple_shell:
 
-<p align="center">
-	<img ="png.gif" src="png.gif"/>
-    </p>
+
     ![1_lqEaA1-6gGQhdLS3k8X0xw](https://user-images.githubusercontent.com/31927278/182707426-f8f7f5ba-a9d0-4620-9242-fad8d5ed5b5f.gif)
 
 

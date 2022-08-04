@@ -5,6 +5,8 @@
  */
 int main(void)
 {
+
+	signal(SIGINT, handler_function);
 	char *ln, **command;
 	int st = 1;
 
@@ -60,4 +62,11 @@ int launch_process(char **command)
 		wait(&pid);
 
 	return (1);
+}
+/**
+ * handler_function - handle signit
+ */
+void handler_function()
+{
+	return;
 }

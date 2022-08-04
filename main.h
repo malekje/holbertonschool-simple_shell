@@ -14,5 +14,5 @@ char *compose(char *token, char *val);
 int launch_process(char **command);
 void search_exe(char **command);
 char *_getenv(char *name);
-void handler_function();
+void handler_function(void);
 #endif

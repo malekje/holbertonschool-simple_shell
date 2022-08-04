@@ -66,7 +66,7 @@ int launch_process(char **command)
 /**
  * handler_function - handle signit
  */
-void handler_function()
+void handler_function(void)
 {
 	return;
 }

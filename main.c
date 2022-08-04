@@ -68,5 +68,4 @@ int launch_process(char **command)
  */
 void handler_function(void)
 {
-	return;
 }

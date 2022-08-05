@@ -6,10 +6,10 @@
 int main(void)
 {
 
-	signal(SIGINT, handler_function);
 	char *ln, **command;
 	int st = 1;
 
+	signal(SIGINT, handler_function);
 	do
 
 	{
@@ -66,6 +66,10 @@ int launch_process(char **command)
 /**
  * handler_function - handle signit
  */
-void handler_function(void)
+void handler_function(int i)
 {
+	if (i)
+	{
+		write(STDOUT_FILENO, "\n$ ", strlen("\n$ "));
+	}
 }

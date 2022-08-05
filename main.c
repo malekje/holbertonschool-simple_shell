@@ -65,6 +65,7 @@ int launch_process(char **command)
 }
 /**
  * handler_function - handle signit
+ * @i: integer
  */
 void handler_function(int i)
 {
